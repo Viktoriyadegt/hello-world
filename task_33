@@ -1,0 +1,9 @@
+function sixToast(num) {
+  // you code here
+  if (num === 6)
+    return 0;
+  if (num < 6)
+    return 6 - num;
+  if (num > 6)
+    return num - 6;
+}
