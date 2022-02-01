@@ -1,0 +1,4 @@
+function findNeedle(haystack) {
+    let indexNeedle = haystack.findIndex( n => n === 'needle')
+         return 'found the needle at position ' +   indexNeedle
+}
