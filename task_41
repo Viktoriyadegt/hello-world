@@ -1,0 +1,5 @@
+function squareSum(numbers){
+      let square = numbers.map(n => n * n)
+     let reducer = (previousValue, currentValue) => previousValue + currentValue;
+     return(square.reduce(reducer, 0));
+ }
