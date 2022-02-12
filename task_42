@@ -1,0 +1,10 @@
+function well(x){
+     let newArray = x.filter(f=>f==="good")
+         if (newArray.length===1 || newArray.length===2) {
+             return 'Publish!'
+         } else if (newArray.length > 2) {
+             return 'I smell a series!'
+         } else {
+             return 'Fail!'
+         }
+}
