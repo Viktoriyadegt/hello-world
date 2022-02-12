@@ -1,0 +1,7 @@
+function squareDigits(num){
+   let array = (""+num).split("").map(Number)
+     let newArray = array.map(m=>m*m)
+     let newArray2 = newArray.join('')
+     let newNum = Number(newArray2)
+     return newNum;
+}
