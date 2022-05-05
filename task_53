@@ -1,0 +1,4 @@
+ var number = function(busStops){
+     let map = busStops.map(m=>m[0]-m[1]).reduce((a,b)=>a + b)
+     return map
+ }
