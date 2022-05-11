@@ -1,0 +1,4 @@
+ function minMax(arr){
+        const sortArr = arr.sort((a,b)=> a - b )
+        return [sortArr[0],sortArr[sortArr.length -1]]
+    }
