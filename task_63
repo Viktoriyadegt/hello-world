@@ -1,0 +1,6 @@
+  function abbrevName(name) {
+        const arrName = name.toUpperCase().split(' ')
+        const arr1 = arrName[0].split('')[0]
+        const arr2 = arrName[1].split('')[0]
+        return [arr1, arr2].join('.')
+    }
