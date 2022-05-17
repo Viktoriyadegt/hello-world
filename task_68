@@ -1,0 +1,4 @@
+    function findUniq(arr) {
+        const arrSort = arr.sort((a, b) => a - b)
+        return arrSort[0] === arrSort[1] ? arrSort[arrSort.length - 1] : arrSort[0]
+    }
