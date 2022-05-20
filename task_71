@@ -1,0 +1,3 @@
+   function DNAtoRNA(dna) {
+        return dna.split('').map(m => m === "T" ? "U" : m).join('')
+    };
