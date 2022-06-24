@@ -1,0 +1,13 @@
+    function duplicateEncode(word) {
+        let arrWord = word.toLowerCase().split('');
+        let newArrWord = [];
+        for (let i = 0; i < arrWord.length; i++) {
+            let double = arrWord.filter(f => f === arrWord[i])
+            if (double.length > 1) {
+                newArrWord.push(')')
+            } else {
+                newArrWord.push('(')
+            }
+        }
+        return newArrWord.join('')
+    }
