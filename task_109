@@ -1,0 +1,6 @@
+    const humanYearsCatYearsDogYears = function (humanYears) {
+        let cateYears = humanYears <= 2 ? humanYears === 1 ? 15 : 24 : ((humanYears - 2) * 4) + 24
+        let dogYears = humanYears <= 2 ? humanYears === 1 ? 15 : 24 : ((humanYears - 2) * 5) + 24
+        return [humanYears, cateYears, dogYears];
+    }
+    console.log(humanYearsCatYearsDogYears(2))
