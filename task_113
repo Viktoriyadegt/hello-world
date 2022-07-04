@@ -1,0 +1,8 @@
+    const uniqueInOrder = function (iterable) {
+        let arrCopy = [];
+        for (let i = 0; i < iterable.length; i++) {
+            if (!arrCopy.includes(iterable[i], arrCopy.length - 1))
+                arrCopy.push(iterable[i])
+        }
+        return arrCopy.filter(f => f)
+    }
