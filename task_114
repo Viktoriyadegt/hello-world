@@ -1,0 +1,5 @@
+   function problem(x) {
+        return x !== x.toString()
+            ? (x * 50) + 6
+            : 'Error'
+    }
