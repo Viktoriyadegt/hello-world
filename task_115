@@ -1,0 +1,13 @@
+    function solution(string) {
+        let arr = string.split('')
+        let upperCase = arr.filter(f => f === f.toUpperCase())
+        for (let i = 0; i < upperCase.length; i++) {
+            if (upperCase[1] !== upperCase[i - 1]) {
+                arr.splice(arr.indexOf(upperCase[i]), 0, ' ')
+            } else {
+                arr.splice(arr.lastIndexOf(upperCase[i]), 0, ' ')
+            }
+
+        }
+        return arr.join('')
+    }
