@@ -1,0 +1,7 @@
+    function solution(str, ending) {
+        if(ending===''){
+            return true
+        }
+        let arrStr = str.split(ending)
+        return arrStr[arrStr.length - 1] === ''
+    }
