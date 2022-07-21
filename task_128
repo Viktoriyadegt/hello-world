@@ -1,0 +1,11 @@
+    function mxdiflg(a1, a2) {
+        if (!a1[0] || !a2[0]) {
+            return -1
+        }
+        let k1 = a1.sort((a, b) => a.length - b.length)
+        let k2 = a2.sort((a, b) => b.length - a.length)
+        let p = k2[0].length - k1[0].length
+        let s = k1[k1.length - 1].length - k2[k2.length - 1].length
+
+        return p > s ? p : s
+    }
