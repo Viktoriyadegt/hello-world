@@ -1,0 +1,5 @@
+ function updateLight(current) {
+        const arr = ['green', 'yellow', 'red']
+        const index = arr.indexOf(current)
+        return arr[index === 2 ? 0 : index + 1]
+    }
