@@ -1,0 +1,7 @@
+   function between(a, b) {
+        let arrInc = [];
+        for (let i = a; i <= b; i++) {
+            arrInc.push(i)
+        }
+        return arrInc
+    }
