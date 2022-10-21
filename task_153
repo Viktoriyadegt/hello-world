@@ -1,0 +1,16 @@
+   function firstNonConsecutive(arr) {
+        let v = []
+        let arr1 = []
+        debugger
+        for (let i = arr[0]; i <= arr[arr.length - 1]; i++) {
+            arr1.push(i)
+        }
+        for (let k = 0; k < arr.length; k++) {
+            if (arr[k] !== arr1[k]) {
+                v.push(arr[k])
+                k++
+            }
+        }
+
+        return v[0] === undefined ? null : v[0]
+    }
