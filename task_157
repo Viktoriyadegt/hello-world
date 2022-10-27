@@ -1,0 +1,7 @@
+    const sequenceSum = (begin, end, step) => {
+        let k = [0]
+        for (let i = begin; i <= end; i+=step) {
+            k.push(i)
+        }
+        return k.reduce((a,b)=>a+b)
+    };
