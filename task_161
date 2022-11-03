@@ -1,0 +1,4 @@
+        function minValue(values) {
+            let a = values.sort((a, b) => a - b)
+            return +a.filter((f, index) => f !== a[index + 1]).join('')
+        }
