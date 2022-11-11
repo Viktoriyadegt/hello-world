@@ -1,0 +1,21 @@
+    function rot13(message) {
+        const alphabet1 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
+        const alphabet2 = ['N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+        const arrMessage = message.split('')
+        let newArr = [];
+
+        for (let i = 0; i <= arrMessage.length - 1; i++) {
+            if (alphabet1.includes(arrMessage[i])) {
+                newArr.push(alphabet2[alphabet1.indexOf(arrMessage[i])])
+            } else if (alphabet1.includes(arrMessage[i].toUpperCase())) {
+                newArr.push(alphabet2[alphabet1.indexOf(arrMessage[i].toUpperCase())].toLowerCase())
+            } else if (alphabet2.includes(arrMessage[i])) {
+                newArr.push(alphabet1[alphabet2.indexOf(arrMessage[i])])
+            } else if (alphabet2.includes(arrMessage[i].toUpperCase())) {
+                newArr.push(alphabet1[alphabet2.indexOf(arrMessage[i].toUpperCase())].toLowerCase())
+            } else {
+                newArr.push(arrMessage[i])
+            }
+        }
+        return newArr.join('')
+    }
