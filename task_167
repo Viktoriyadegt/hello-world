@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 function addFive(num) {
   return num + 5;
 }
+=======
+const arr = N => {
+  let arr = [];
+  for(let i = 0; i<=N-1; i++){
+  arr.push(i)
+}
+return arr
+  
+}
+>>>>>>> 47683e57c2f24fa60271e6f7e1f3065f134c0bfc
