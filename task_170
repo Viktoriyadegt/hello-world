@@ -1,0 +1,4 @@
+function sayHello( name, city, state ) {
+  const nameNew = name.join(' ')
+  return `Hello, ${nameNew}! Welcome to ${city}, ${state}!`
+}
