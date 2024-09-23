@@ -1,0 +1,5 @@
+    function XO(str) {
+        let x = str.toUpperCase().split('').filter(f => f === 'X')
+        let o = str.toUpperCase().split('').filter(f => f === 'O')
+        return x.length === o.length
+    }
