@@ -1,0 +1,8 @@
+    function squareArea(A) {
+        let circular = A * 4
+        let radius = circular/(Math.PI*2)
+        let square = radius*radius
+        return +square.toFixed(2)
+    }
+
+    console.log(squareArea(14.05))
