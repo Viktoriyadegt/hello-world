@@ -1,0 +1,4 @@
+    function sumMix(x) {
+        let arrayNum = x.map(m => +m)
+        return arrayNum.reduce((a, b) => a + b)
+    }
