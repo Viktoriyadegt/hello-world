@@ -1,3 +1,8 @@
-function remove(str, n){
-    str.replace(/!{n}/g, '');
+function remove(s,n){
+    let input = s;
+    while (n) {
+        input = input.replace(/!/, "");
+        n-=1;
+    }
+    return input;
 }
