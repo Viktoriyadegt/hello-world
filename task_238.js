@@ -16,6 +16,3 @@ function powersOfTwo(n) {
     }
     return array
 }
-
-
-
