@@ -11,7 +11,7 @@
 
   const orderedCount = function (text) {
       let obj = {}
-      let textArr = text.split('').map(m=>m.toString())
+      let textArr = text.split('')
       for(let i = 0; i<=textArr.length-1;i++) {
           if (obj[textArr[i]]) {
               obj[textArr[i]] += 1
