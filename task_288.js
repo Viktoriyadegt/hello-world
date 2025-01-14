@@ -1,4 +1,5 @@
-//A bookseller has lots of books classified in 26 categories labeled A, B, C, ..., Z.
+
+// A bookseller has lots of books classified in 26 categories labeled A, B, C, ..., Z.
 // Each book has a code of at least 3 characters.
 // The 1st character of a code is a capital letter which defines the book category.
 //
