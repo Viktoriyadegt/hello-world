@@ -30,6 +30,7 @@ function firstNonRepeatingLetter(s) {
     return typeof k === 'number' ? s[k] : ''
 }
 
+
 // tests ===============================================================
 
 
