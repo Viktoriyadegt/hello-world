@@ -25,3 +25,6 @@ console.log(toWeirdCase(        'unique'));//, 'UnIqUe'
 console.log(toWeirdCase(    'UPPER CASE'));//, 'UpPeR CaSe'
 console.log(toWeirdCase(    'lower case'));//, 'LoWeR CaSe'
 
+
+
+
