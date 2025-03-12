@@ -37,6 +37,6 @@ const numberOfSubstrings = function (s) {
 // tests ===============================================================
 
     console.log(numberOfSubstrings('abcabc')) // 10
-    console.log(numberOfSubstrings('aaacb')) // 3
-    console.log(numberOfSubstrings('abc')) // 1
+    console.log(numberOfSubstrings( 'aaacb')) // 3
+    console.log(numberOfSubstrings(   'abc')) // 1
 
