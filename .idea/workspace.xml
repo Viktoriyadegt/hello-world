@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d0597c47-3e31-49a9-bb56-45fcacd787cc" name="Changes" comment="fix comment and name">
-      <change afterPath="$PROJECT_DIR$/task_301-400/_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_301-400/task_371.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_301-400/_test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +32,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.task_371.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "leetcode",
-    "last_opened_file_path": "D:/codewars/hello-world",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/22_sebtember_2024/codewars/hello-world/hello-world/task_301-400",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +44,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\22_sebtember_2024\codewars\hello-world\hello-world\task_301-400" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="task_371.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task_301-400/task_371.js" working-dir="$PROJECT_DIR$/task_301-400">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.task_371.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +84,7 @@
       <workItem from="1732773246486" duration="5000" />
       <workItem from="1745302269924" duration="131000" />
       <workItem from="1745317396265" duration="529000" />
+      <workItem from="1745329248495" duration="6291000" />
     </task>
     <task id="LOCAL-00001" summary="fix comment and name">
       <option name="closed" value="true" />
