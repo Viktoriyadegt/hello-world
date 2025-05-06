@@ -1,0 +1,14 @@
+<script>
+
+    const plusOne = function (digits) {
+        debugger
+        const num = digits.join('')
+        const num1 = +num
+        const num2 = num1 + 1
+        return num2.toString().split('').map(num => +(num));
+    };
+
+    console.log(plusOne([6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3]),
+        [6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 4])
+
+</script>
